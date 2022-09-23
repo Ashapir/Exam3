@@ -66,7 +66,7 @@ class Tomato:
         self._print_state()
 
     def _print_state(self):
-        print(f'Tomato {self._index} is {Tomato.states[self._state]}')
+        print(f'Помидор {self._index} is {Tomato.states[self._state]}')
 
 
 class TomatoBush:
@@ -115,7 +115,7 @@ class Gardener:
     # Выводит справку по садоводству
     @staticmethod
     def knowledge_base():
-        print('Справка по садоводству.')
+        print('Справка по садоводству: Лейте воду по колено.')
 
 
 # Тесты
@@ -128,3 +128,5 @@ gardener.work()
 gardener.harvest()
 gardener.work()
 gardener.harvest()
+gardener.harvest()
+
