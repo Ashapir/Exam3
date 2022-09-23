@@ -50,7 +50,7 @@ class Tomato:
 
     # Переход к следующей стадии созревания
     def grow(self):
-        self._change_state()
+        self._change_state = self._state + 1
 
     # Проверка, созрел ли томат
     def is_ripe(self):
